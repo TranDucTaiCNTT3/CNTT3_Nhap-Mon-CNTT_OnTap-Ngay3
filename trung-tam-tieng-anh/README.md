@@ -38,7 +38,7 @@ Website có thể hỗ trợ học viên **tìm hiểu thông tin khóa học** 
 Chạy lệnh PowerShell sau tại thư mục dự án để xem danh sách tệp và thư mục:
 
 ```
-Get-ChildItem
+Get-ChildItem -Recurse
 ```
 
 ## Công việc cần thực hiện
@@ -52,4 +52,4 @@ Get-ChildItem
 
     
 
-> Không tải tệp `.env` lên GitHub vì tệp này có thể chứa thông tin cấu hình hoặc dữ liệu bí mật.
+> Không tải tệp `.env` lên GitHub.
